@@ -1,0 +1,42 @@
+cargo:
+  - changed-files:
+      - any-glob-to-any-file: ["Cargo.toml", "Cargo.lock"]
+changelog:
+  - changed-files:
+      - any-glob-to-any-file: "CHANGELOG.md"
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: "*.md"
+git:
+  - changed-files:
+      - any-glob-to-any-file: ".gitignore"
+github:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**/*"
+license:
+  - changed-files:
+      - any-glob-to-any-file: "LICENSE*"
+markdown:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.md"
+readme:
+  - changed-files:
+      - any-glob-to-any-file: "README.md"
+rust:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.rs"
+source:
+  - changed-files:
+      - any-glob-to-any-file: "src/**/*"
+tests:
+  - changed-files:
+      - any-glob-to-any-file: "tests/**/*"
+toml:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.toml"
+workflow:
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**/*"
+yaml:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.yml"
