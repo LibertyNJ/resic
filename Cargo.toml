@@ -1,0 +1,12 @@
+[package]
+name = "resic"
+version = "0.0.0"
+categories = ["api-bindings", "games"]
+edition = "2024"
+keywords = ["esi", "eve", "eve_online"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/LibertyNJ/resic"
+rust-version = "1.85.1"
+description = "A client for EVE Stable Infrastructure by CCP Games"
+
+[dependencies]
