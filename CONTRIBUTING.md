@@ -31,3 +31,20 @@ first. If it has not,
 
 You can ask questions and engage with others about the project in
 [discussions](https://github.com/LibertyNJ/resic/discussions).
+
+## Maintaining the Changelog
+
+All changes to features, deprecations of features, bug fixes, and security
+patches should be recorded in [CHANGELOG.md](CHANGELOG.md), which follows the
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/) guidelines.
+
+All breaking changes should be prefixed with "**BREAKING**: ", and moved to the
+beginning of their respective sections.
+
+For example:
+
+```markdown
+### Changed
+
+- **BREAKING**: Made a backward incompatible change to a public interface.
+```
