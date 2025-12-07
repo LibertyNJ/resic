@@ -41,3 +41,18 @@ jobs:
           -Dclippy::cargo \
           -Dclippy::pedantic \
           -Dmissing_docs
+  build-and-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cache
+        uses: Swatinem/rust-cache@v2
+      - name: Build
+        run: |
+          RUSTFLAGS=-Dwarnings \
+          cargo build \
+          --all-targets \
+          --locked \
+          --verbose
