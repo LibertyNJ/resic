@@ -56,3 +56,11 @@ jobs:
           --all-targets \
           --locked \
           --verbose
+      - name: Test
+        run: |
+          RUSTFLAGS=-Dwarnings \
+          cargo test \
+          --all-targets \
+          --locked \
+          --no-fail-fast \
+          --verbose
