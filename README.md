@@ -1,8 +1,8 @@
 # RESIC
 
 A Rust client for
-[EVE Stable Infrastructure (ESI)](https://developers.eveonline.com/api-explorer)
-by [CCP Games](https://www.ccpgames.com/).
+[EVE Swagger Interface (ESI)](https://developers.eveonline.com/api-explorer)
+by [Fenris Creations](https://fenris.com/).
 
 ## About
 
@@ -29,12 +29,12 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
 
-## CCP Proprietary Notice
+## Fenris Creations Proprietary Notice
 
-This is a third-party client for EVE Stable Infrastructure which utilizes
+This is a third-party client for EVE Swagger Interface (ESI) which utilizes
 licensed materials according to the terms and conditions of a
 [developer license agreement](https://developers.eveonline.com/license-agreement)
-with CCP hf.
+with Fenris Creations (formerly known as CCP hf).
 
 > © 2014 CCP hf. All rights reserved. "EVE", "EVE Online", "CCP", and all
 > related logos and images are trademarks or registered trademarks of CCP hf.
