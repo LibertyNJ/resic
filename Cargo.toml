@@ -7,6 +7,6 @@ keywords = ["esi", "eve", "eve_online"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/LibertyNJ/resic"
 rust-version = "1.85.1"
-description = "A client for EVE Swagger Interface (ESI) by CCP Games"
+description = "A client for EVE Swagger Interface (ESI) by Fenris Creations"
 
 [dependencies]
