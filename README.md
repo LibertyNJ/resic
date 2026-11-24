@@ -1,7 +1,7 @@
 # RESIC
 
 A Rust client for
-[EVE Stable Infrastructure (ESI)](https://developers.eveonline.com/api-explorer)
+[EVE Swagger Interface (ESI)](https://developers.eveonline.com/api-explorer)
 by [CCP Games](https://www.ccpgames.com/).
 
 ## About
@@ -31,7 +31,7 @@ dual licensed as above, without any additional terms or conditions.
 
 ## CCP Proprietary Notice
 
-This is a third-party client for EVE Stable Infrastructure which utilizes
+This is a third-party client for EVE Swagger Interface (ESI) which utilizes
 licensed materials according to the terms and conditions of a
 [developer license agreement](https://developers.eveonline.com/license-agreement)
 with CCP hf.

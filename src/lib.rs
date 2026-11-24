@@ -1,3 +1,3 @@
 //! # RESIC
 //!
-//! A client for EVE Stable Infrastructure by CCP Games.
+//! A client for EVE Swagger Interface (ESI) by CCP Games.
