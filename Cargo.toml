@@ -11,10 +11,10 @@ description = "A client for EVE Swagger Interface (ESI) by Fenris Creations"
 
 [dependencies]
 
-[lints.rust]
-missing_docs = "warn"
-
 [lints.clippy]
 all = "warn"
 cargo = "warn"
 pedantic = "warn"
+
+[lints.rust]
+missing_docs = "warn"
