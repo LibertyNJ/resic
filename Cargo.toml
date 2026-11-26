@@ -10,3 +10,11 @@ rust-version = "1.85.1"
 description = "A client for EVE Swagger Interface (ESI) by Fenris Creations"
 
 [dependencies]
+
+[lints.clippy]
+all = "warn"
+cargo = "warn"
+pedantic = "warn"
+
+[lints.rust]
+missing_docs = "warn"
