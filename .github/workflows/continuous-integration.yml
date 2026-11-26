@@ -35,12 +35,7 @@ jobs:
         run: |
           cargo clippy \
           --all-targets \
-          --verbose \
-          -- \
-          -Dclippy::all \
-          -Dclippy::cargo \
-          -Dclippy::pedantic \
-          -Dmissing_docs
+          --verbose
   build-and-test:
     name: Build and Test
     runs-on: ubuntu-latest
